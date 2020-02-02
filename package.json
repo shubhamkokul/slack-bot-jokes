@@ -1,0 +1,23 @@
+{
+  "name": "slack-joke-bot",
+  "version": "1.0.0",
+  "description": "Slack Bot to send Jokes",
+  "main": "slack-bot-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node slack-bot-server.js"
+  },
+  "keywords": [
+    "Slakc",
+    "Bot",
+    "Jokes",
+    "NodeJs"
+  ],
+  "author": "Shubham Kokul",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "slackbots": "^1.2.0"
+  }
+}
